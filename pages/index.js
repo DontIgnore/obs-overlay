@@ -19,7 +19,11 @@ export default function Home() {
           Последний донат: <span id="lastDonation">---</span>
         </div>
         <div className={styles.title}>
-          Сейчас играет: <span id="currentTrack"> <a href="api/spotify">Войти</a> </span>
+          Сейчас играет:{" "}
+          <span id="currentTrack">
+            {" "}
+            <a href="api/spotify">Войти</a>{" "}
+          </span>
         </div>
       </div>
     </div>
