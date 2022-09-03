@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "next": "12.2.5",
     "nextjs-redirect": "^6.0.1",
+    "node-json-db": "^2.1.1",
+    "querystring": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "spotify-web-api-node": "^5.0.2"
